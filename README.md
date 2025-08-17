@@ -1,6 +1,4 @@
----
-title: Freelancer Web3 Platform Diagram
----
+
 
 # Freelancer Web3 Platform – System Overview
 

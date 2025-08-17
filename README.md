@@ -2,6 +2,31 @@
 title: Freelancer Web3 Platform Diagram
 ---
 
+# Freelancer Web3 Platform – System Overview
+
+This system is designed to build a **decentralized freelance marketplace (Web3)** on the Cardano blockchain.  
+The main components include:
+
+- **User**:  
+  - **Client**: Posts projects, funds escrow, and can raise disputes.  
+  - **Freelancer**: Registers, stakes a deposit, and can also raise disputes when necessary.
+
+- **Platform (Web3 Freelance Platform)**:  
+  Acts as the core layer that connects clients and freelancers, manages escrow contracts, and routes dispute processes.
+
+- **AI Verification**:  
+  Provides identity and reputation services through face/ID verification, reputation scoring, job recommendations, and vote suggestions.  
+  Connected to the **DID Contract** for decentralized identity verification recorded on-chain.
+
+- **Escrow Reward**:  
+  Manages the **Escrow Contract** and the **Reward Pool Contract**, ensuring that project funds and staking rewards are securely handled.
+
+- **Governance**:  
+  A **DAO / Expert Arbitrators Contract** is responsible for dispute resolution and governance, ensuring fair and transparent decision-making.
+
+- **Blockchain (Cardano)**:  
+  All DID records, escrow deposits, rewards, and DAO governance are executed and verified on the Cardano blockchain for security, transparency, and decentralization.
+
 ```mermaid
 flowchart LR
 
